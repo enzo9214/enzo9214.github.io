@@ -1,299 +1,59 @@
-body{
-	background-color: #EEEEEE;
+.contacto{
+	padding-left: 2.5vw;
 }
 
-.row{
-	clear: both;
+.noticia{
+	border: 1px #cccccc solid;
+	border-width: 2px;
+	box-sizing: border-box;
+	margin: 2.5vh; 
 }
 
-.img-responsive{
-	width: 100%;
-	max-width: 150px;
+.footer{
+	background-color: #4EBBB7;
 }
 
-.face{
-	margin-top: -50%;
-
+.navbar {
+  min-height: 90px;
 }
 
-.margen-inicial{
-	margin-top: 20vh;
+.navbar-brand {
+  padding: 0 15px;
+  height: 90px;
+  line-height: 90px;
 }
 
-.main{
-	background-color: #FFFFFF;
+.formulario{
+	padding-left:  3vw;	
+	padding-right:  3vw;	
 }
 
-.center{
+.social{
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-size:60px;
+	color:#FFFFFF;
+}	
+
+.space{
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+.centrado{
 	text-align: center;
 }
 
-
-h4{
-	color: #F0563E;
-	margin-bottom:20px;
-	margin-top: 20px;
-}
-
-h3{
-	color: #F0563E;
-	margin-bottom:15px;
-}
-
-p{
-	margin:0px;
-}
-
 .separador{
-	width: 100%;
-	height: 2px;
-	background-color: #CCCCCC;
+	border-bottom: 2px solid #FFCD6B;
+	margin-bottom: 10px;
 }
 
-.box1{
-	background-color: #CCCCCC;
-	box-sizing:border-box;
-	margin-bottom:15px;
+.mas{
+	text-align: right;
 }
 
-.espacio{
-	margin-top: 15px;
-}
-
-ul{
-	margin: 0px;
-}
-
-.skillbox1, .skillbox2, .skillbox3, .skillbox4, .skillbox5{
-	background-color:#F0563E;  
-	color: white;
-	height: auto;
-	max-height: 20px;
-	margin-bottom: 4px;
-}
-
-.skillbox1{
-	width: 80%;
-}
-
-.skillbox2{
-	width: 60%;
-}
-
-.skillbox3{
-	width: 50%;
-}
-
-.skillbox4{
-	width: 40%;
-}
-
-.skillbox5{
-	width: 30%;
-}
-
-.hobbiesbox{
-	background-color:#A45068;  
-	color: white;
-	height: auto;
-	max-height: 20px;
-	margin: 3px;
-	float: left;
-	padding: 5px;
-}
-
-@media(min-width: 0px) and (max-width: 766px){
-	.col-xs-1{
-		width: 8.33%;
-		float: left;
-	}
-	.col-xs-offset-1{
-		margin-left: 8.33%;
-	}
-
-	.col-xs-2{
-		width: 16.66%;
-		float: left;
-	}
-	.col-xs-offset-2{
-		margin-left: 16.66%;
-	}
-
-	.col-xs-3{
-		width: 24.99%;
-		float: left;
-	}
-	.col-xs-offset-3{
-		margin-left: 24.99%;
-	}
-
-	.col-xs-4{
-		width: 33.32%;
-		float: left;
-	}
-	.col-xs-offset-4{
-		margin-left: 33.32%;
-	}
-
-	.col-xs-5{
-		width: 41.65%;
-		float: left;
-	}
-	.col-xs-offset-5{
-		margin-left: 41.65%;
-	}
-
-	.col-xs-6{
-		width: 49.98%;
-		float: left;
-	}
-	.col-xs-offset-6{
-		margin-left: 49.98%;
-	}
-
-	.col-xs-7{
-		width: 58.31%;
-		float: left;
-	}
-	.col-xs-offset-7{
-		margin-left: 58.31%;
-	}
-
-	.col-xs-8{
-		width: 66.64%;
-		float: left;
-	}
-	.col-xs-offset-8{
-		margin-left: 66.64%;
-	}
-
-	.col-xs-9{
-		width: 74.97%;
-		float: left;
-	}
-	.col-xs-offset-9{
-		margin-left: 74.97%;
-	}
-
-	.col-xs-10{
-		width: 83.3%;
-		float: left;
-	}
-	.col-xs-offset-10{
-		margin-left: 83.3%;
-	}
-
-	.col-xs-11{
-		width: 91.63%;
-		float: left;
-	}
-	.col-xs-offset-11{
-		margin-left: 91.63%;
-	}
-
-	.col-xs-12{
-		width: 100%;
-		float: left;
-	}
-	.col-xs-offset-12{
-		margin-left: 100%;
-	}
-}
-
-@media(min-width: 767px){
-	.col-md-1{
-		width: 8.33%;
-		float: left;
-	}
-	.col-md-offset-1{
-		margin-left: 8.33%;
-	}
-
-	.col-md-2{
-		width: 16.66%;
-		float: left;
-	}
-	.col-md-offset-2{
-		margin-left: 16.66%;
-	}
-
-	.col-md-3{
-		width: 24.99%;
-		float: left;
-	}
-	.col-md-offset-3{
-		margin-left: 24.99%;
-	}
-
-	.col-md-4{
-		width: 33.32%;
-		float: left;
-	}
-	.col-md-offset-4{
-		margin-left: 33.32%;
-	}
-
-	.col-md-5{
-		width: 41.65%;
-		float: left;
-	}
-	.col-md-offset-5{
-		margin-left: 41.65%;
-	}
-
-	.col-md-6{
-		width: 49.98%;
-		float: left;
-	}
-	.col-md-offset-6{
-		margin-left: 49.98%;
-	}
-
-	.col-md-7{
-		width: 58.31%;
-		float: left;
-	}
-	.col-md-offset-7{
-		margin-left: 58.31%;
-	}
-
-	.col-md-8{
-		width: 66.64%;
-		float: left;
-	}
-	.col-md-offset-8{
-		margin-left: 66.64%;
-	}
-
-	.col-md-9{
-		width: 74.97%;
-		float: left;
-	}
-	.col-md-offset-9{
-		margin-left: 74.97%;
-	}
-
-	.col-md-10{
-		width: 83.3%;
-		float: left;
-	}
-	.col-md-offset-10{
-		margin-left: 83.3%;
-	}
-
-	.col-md-11{
-		width: 91.63%;
-		float: left;
-	}
-	.col-md-offset-11{
-		margin-left: 91.63%;
-	}
-
-	.col-md-12{
-		width: 100%;
-		float: left;
-	}
-	.col-md-offset-12{
-		margin-left: 100%;
-	}
+.fix-barra-fija{
+	margin-top: 100px;
 }
